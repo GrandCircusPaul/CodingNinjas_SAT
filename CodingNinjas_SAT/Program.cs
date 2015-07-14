@@ -12,11 +12,18 @@ namespace CodingNinjas_SAT
         {
             //Run1(); //Travis, Cheryl, Matthew, Hema 
            
-            Run2(); //Nasir Derrick Kevin Vaneitta 
-
+            //Run2(); //Nasir Derrick Kevin Vaneitta 
+            Run3(); //Adam Ashley Mara Uma
             Console.ReadLine();
 
 
+        }
+
+        static void Run3()//uses: "TheGame.cs"Adam Ashley Mara Uma
+        {
+            TheGame myAdventure = new TheGame();
+            myAdventure.Greeting();
+            myAdventure.adventure();
         }
         // uses: "CodingNinjas", "Team"
         static void Run1() 
